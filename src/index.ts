@@ -23,6 +23,7 @@ const cjkPunctuations = unicode({
     'Kanbun',
     'CJK_Strokes',
     'Enclosed_CJK_Letters_And_Months',
+    'Katakana', // All non-punctuation characters in this block are contained in `cjkLetters` because their Script is Katakana.
   ],
 }).subtract(cjkLetters)
 

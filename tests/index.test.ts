@@ -12,6 +12,7 @@ const cjkSymbolsPunctuation = '。「」〒〓〱'
 const alsoCjkSymbolsPunctuation = '〻〧〨〤々'
 const hiragana = 'あどなにぬ'
 const katakana = 'ハヒヘホ'
+const katakanaPunctuation = '゠・'
 const bopomofo = 'ㄅㄬㄭㄮㄯ'
 const hangulCompatibilityJamo = 'ㅂㅵㅶㅷㅸ'
 const kanbun = '㆐㆑㆒㆓'
@@ -61,6 +62,7 @@ const testCases: TestCases = {
   ...casify(kangxiRadicals, 'cjk-letter'),
   ...casify(ideographicDescriptionCharacters, 'cjk-punctuation'),
   ...casify(hiragana + katakana, 'cjk-letter'),
+  ...casify(katakanaPunctuation, 'cjk-punctuation'),
   ...casify(katakanaPhoneticExtensions, 'cjk-letter'),
   ...casify(enclosedCjkLettersMonths, 'cjk-punctuation'),
   ...casify(cjkStrokes, 'cjk-punctuation'),
