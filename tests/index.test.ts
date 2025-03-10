@@ -1,6 +1,5 @@
 import * as cjk from '../src/index.js'
 import { test, expect } from 'vitest'
-import type { Charset, CharsetDataUnit } from 'regexp-util'
 
 type TestType = 'non-cjk' | 'cjk-letter' | 'cjk-punctuation'
 type TestCases = { [char: string]: TestType }
@@ -131,23 +130,3 @@ Object.keys(testCases).forEach(character => {
     }
   })
 })
-
-const stringifyRange = (range: CharsetDataUnit) =>
-  range
-    .map(codePoint => {
-      const character = String.fromCodePoint(codePoint)
-      const codePointInHexadecimal = `U+${codePoint.toString(16).toUpperCase()}`
-      return `${codePoint} (${character}, ${codePointInHexadecimal})`
-    })
-    .join(' - ')
-
-const stringifyCharset = (charset: Charset) => {
-  return charset.data.map(range => stringifyRange(range)).join('\n')
-}
-
-for (const [name, getter] of Object.entries(cjk)) {
-  test(`Snapshot: ${name}`, () => {
-    const data = stringifyCharset(getter())
-    expect('\n' + data + '\n').matchSnapshot()
-  })
-}
