@@ -128,3 +128,9 @@ Object.keys(testCases).forEach(character => {
     }
   })
 })
+
+for (const [name, getter] of Object.entries(cjk)) {
+  test(`Snapshot: ${name}`, () => {
+    expect(getter().data).matchSnapshot()
+  })
+}

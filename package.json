@@ -22,6 +22,7 @@
   "scripts": {
     "prepack": "pnpm run build",
     "lint": "prettier --check .",
+    "fix": "prettier --write .",
     "test": "vitest",
     "build": "tsc -p ./tsconfig.build.json",
     "release": "standard-version"
