@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [3.3.0](https://github.com/ikatyang-collab/cjk-regex/compare/v3.2.1...v3.3.0) (2025-03-10)
+
+### Features
+
+- add symbols in Katakana block ([#190](https://github.com/ikatyang-collab/cjk-regex/issues/190)) ([c66a3d1](https://github.com/ikatyang-collab/cjk-regex/commit/c66a3d1812c572695e9d436e93ed6c3d8a34940b))
+
 ## [3.2.1](https://github.com/ikatyang-collab/cjk-regex/compare/v3.2.0...v3.2.1) (2025-03-08)
 
 # [3.2.0](https://github.com/ikatyang/cjk-regex/compare/v3.1.0...v3.2.0) (2025-03-07)
