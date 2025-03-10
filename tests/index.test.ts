@@ -135,7 +135,7 @@ const stringifyRange = (range: CharsetDataUnit) =>
     .map(codePoint => {
       const character = String.fromCodePoint(codePoint)
       const codePointInHexadecimal = `U+${codePoint.toString(16).toUpperCase()}`
-      return `${character}(${codePointInHexadecimal}), ${codePoint}`
+      return `${codePoint} (${character}, ${codePointInHexadecimal})`
     })
     .join(' - ')
 
