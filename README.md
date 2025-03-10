@@ -1,11 +1,11 @@
 # cjk-regex
 
 [![npm](https://img.shields.io/npm/v/cjk-regex.svg)](https://www.npmjs.com/package/cjk-regex)
-[![build](https://img.shields.io/github/actions/workflow/status/ikatyang/cjk-regex/test.yml)](https://github.com/ikatyang/cjk-regex/actions?query=branch%3Amaster)
+[![build](https://img.shields.io/github/actions/workflow/status/ikatyang/cjk-regex/test.yml)](https://github.com/ikatyang/cjk-regex/actions?query=branch%3Amain)
 
 regular expression for matching CJK text
 
-[Changelog](https://github.com/ikatyang/cjk-regex/blob/master/CHANGELOG.md)
+[Changelog](https://github.com/ikatyang/cjk-regex/blob/main/CHANGELOG.md)
 
 ## Install
 

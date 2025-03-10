@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.2.1](https://github.com/ikatyang-collab/cjk-regex/compare/v3.2.0...v3.2.1) (2025-03-08)
+
+# [3.2.0](https://github.com/ikatyang/cjk-regex/compare/v3.1.0...v3.2.0) (2025-03-07)
+
+### Bug Fixes
+
+- add `types` to `exports` ([#186](https://github.com/ikatyang/cjk-regex/issues/186)) ([9f4befa](https://github.com/ikatyang/cjk-regex/commit/9f4befa4ef46ef5a1068b7ec46cfa63b18a1aac1))
+
+### Features
+
+- upgrade `unicode-regex` to support Unicode 16 ([#191](https://github.com/ikatyang/cjk-regex/issues/191)) ([5e5757e](https://github.com/ikatyang/cjk-regex/commit/5e5757e5dd36ad21133c1401133694e1576395ab))
+
 # [3.1.0](https://github.com/ikatyang/cjk-regex/compare/v3.0.0...v3.1.0) (2023-10-21)
 
 ### Features
