@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [3.4.0](https://github.com/ikatyang-collab/cjk-regex/compare/v3.3.0...v3.4.0) (2025-08-30)
+
+### Features
+
+- support Unicode 17 ([#198](https://github.com/ikatyang-collab/cjk-regex/issues/198)) ([aac9cac](https://github.com/ikatyang-collab/cjk-regex/commit/aac9cac134f851861842cd00265babb05b732d00))
+
 # [3.3.0](https://github.com/ikatyang-collab/cjk-regex/compare/v3.2.1...v3.3.0) (2025-03-10)
 
 ### Features
