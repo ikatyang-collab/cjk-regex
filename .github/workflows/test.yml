@@ -1,3 +1,5 @@
+name: CI
+
 on:
   push:
     branches:
@@ -14,16 +16,12 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup
-      - run: pnpm run lint
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup
-      - run: pnpm run build
+      - run: yarn lint
+
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup
-      - run: pnpm run test
+      - run: yarn build
+      - run: yarn test
