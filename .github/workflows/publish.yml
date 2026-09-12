@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup
+      - run: yarn build
       - run: npm install -g npm@latest
       - run: npm pkg delete scripts devDependencies packageManager
       - run: |
