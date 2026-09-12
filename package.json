@@ -29,7 +29,7 @@
   "dependencies": {
     "regexp-util": "^2.0.3",
     "release-it": "21.0.2",
-    "unicode-regex": "^4.2.0"
+    "unicode-regex": "^4.2.3"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "5.0.0",

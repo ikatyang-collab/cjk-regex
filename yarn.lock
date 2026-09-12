@@ -842,7 +842,7 @@ __metadata:
     regexp-util: "npm:^2.0.3"
     release-it: "npm:21.0.2"
     typescript: "npm:6.0.3"
-    unicode-regex: "npm:^4.2.0"
+    unicode-regex: "npm:^4.2.3"
     vite: "npm:8.3.0"
     vitest: "npm:5.0.0"
   languageName: unknown
@@ -2214,12 +2214,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unicode-regex@npm:^4.2.0":
-  version: 4.2.2
-  resolution: "unicode-regex@npm:4.2.2"
+"unicode-regex@npm:^4.2.3":
+  version: 4.2.3
+  resolution: "unicode-regex@npm:4.2.3"
   dependencies:
     regexp-util: "npm:^2.0.3"
-  checksum: 10/5a530e63cbfa8632c251790ae3e1888b88bf69807a915c6f3f5ce7a6f2ab9f93e32d5c4344dbb6ea62ece61a1a5f0e99742ea335f9758a8d0632023eae1b82b5
+  checksum: 10/7cee5863712d622b02edbb56e178c1605ee6f0a17331a94777222dd25b97d1374c4661c5f6b096067940da189cf063d6995640fd4bf13cfa9a760a7f142eeba5
   languageName: node
   linkType: hard
 
