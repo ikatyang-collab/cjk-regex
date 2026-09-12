@@ -1,3 +1,5 @@
+name: Publish
+
 on:
   push:
     tags:
@@ -11,6 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/setup
-      - run: pnpm publish --no-git-checks --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm install -g npm@latest
+      - run: npm pkg delete scripts devDependencies packageManager
+      - run: |
+          node --version
+          npm --version
+      - run: npm publish
