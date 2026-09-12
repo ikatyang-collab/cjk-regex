@@ -28,12 +28,12 @@
   },
   "dependencies": {
     "regexp-util": "^2.0.3",
-    "release-it": "21.0.2",
     "unicode-regex": "^4.2.3"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "5.0.0",
     "prettier": "3.8.4",
+    "release-it": "21.0.2",
     "typescript": "6.0.3",
     "vite": "8.3.0",
     "vitest": "5.0.0"
